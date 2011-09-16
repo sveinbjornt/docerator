@@ -1,0 +1,14 @@
+Preview.app pdf.icns preview.icns 
+Utilities/Terminal.app command_icon.icns Terminal.icns 
+iTunes.app iTunes-generic.icns iTunes.icns 
+Acorn.app AcornDocIcon.icns Acorn.icns 
+iWork '08/Keynote.app KeyDocument.icns Keynote.icns 
+_Nico/Camino.app fileHtml.icns appicon.icns
+_Nico/Cha-Ching.app BPDocIcon.icns AppIcon.icns 
+_Nico/Colloquy.app Generic.icns Colloquy.icns 
+_Nico/Firefox.app document.icns firefox.icns 
+_Nico/HTTP Client.app file.icns appl.icns 
+_Nico/TaskPaper.app TaskPaperDocument.icns TaskPaper.icns 
+_Nico/TextMate.app OBJ-C.icns TextMate.icns 
+_Nico/Transmission.app TransmissionDocument.icns Transmission.icns 
+VMware Fusion.app vmx.icns fusion.icns 

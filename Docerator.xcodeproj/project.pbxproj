@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* DoceratorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* DoceratorAppDelegate.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F44EF86A12285A5F00CAC9C2 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = F44EF86712285A5F00CAC9C2 /* IconFamily.m */; };
+		F44EF86B12285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = F44EF86912285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.m */; };
+		F44EF86C12285A6300CAC9C2 /* makeicns.m in Sources */ = {isa = PBXBuildFile; fileRef = F44EF86412285A3A00CAC9C2 /* makeicns.m */; };
+		F44EF9C412285AAE00CAC9C2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EF9C312285AAE00CAC9C2 /* Carbon.framework */; };
+		F44EF9D112285AE400CAC9C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F44EFAA012285BFF00CAC9C2 /* flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EFA9F12285BFF00CAC9C2 /* flow.cpp */; };
+		F44EFAA512285C1C00CAC9C2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EFAA412285C1C00CAC9C2 /* ApplicationServices.framework */; };
+		F44EFAA912285C3500CAC9C2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EFAA812285C3500CAC9C2 /* CoreFoundation.framework */; };
+		F44EFACC12285DBF00CAC9C2 /* docerator.py in Resources */ = {isa = PBXBuildFile; fileRef = F44EFACB12285DBF00CAC9C2 /* docerator.py */; };
+		F44EFACE12285E0100CAC9C2 /* makeicns in Resources */ = {isa = PBXBuildFile; fileRef = F44EF85512285A2900CAC9C2 /* makeicns */; };
+		F44EFACF12285E0400CAC9C2 /* flow in Resources */ = {isa = PBXBuildFile; fileRef = F44EFA9B12285BF400CAC9C2 /* flow */; };
+		F44EFAFB12286D8400CAC9C2 /* DoceratorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44EFAFA12286D8400CAC9C2 /* DoceratorImageView.m */; };
+		F4B700B2123BFF8E000FE898 /* Docerator.icns in Resources */ = {isa = PBXBuildFile; fileRef = F4B700B1123BFF8E000FE898 /* Docerator.icns */; };
+		F4B700E6123C0199000FE898 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B700E5123C0199000FE898 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44EFAD412285E1500CAC9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44EF85412285A2900CAC9C2;
+			remoteInfo = makeicns;
+		};
+		F44EFAD612285E1500CAC9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44EFA9A12285BF400CAC9C2;
+			remoteInfo = flow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		256AC3D80F4B6AC300CF3369 /* DoceratorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoceratorAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* DoceratorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoceratorAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Docerator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Docerator_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Docerator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Docerator-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Docerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Docerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44EF85512285A2900CAC9C2 /* makeicns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = makeicns; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44EF86412285A3A00CAC9C2 /* makeicns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = makeicns.m; sourceTree = "<group>"; };
+		F44EF86612285A5F00CAC9C2 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconFamily.h; sourceTree = "<group>"; };
+		F44EF86712285A5F00CAC9C2 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconFamily.m; sourceTree = "<group>"; };
+		F44EF86812285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
+		F44EF86912285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CarbonFSRefCreation.m"; sourceTree = "<group>"; };
+		F44EF9C312285AAE00CAC9C2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F44EFA9B12285BF400CAC9C2 /* flow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = flow; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44EFA9F12285BFF00CAC9C2 /* flow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flow.cpp; sourceTree = "<group>"; };
+		F44EFAA412285C1C00CAC9C2 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F44EFAA812285C3500CAC9C2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		F44EFACB12285DBF00CAC9C2 /* docerator.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = docerator.py; sourceTree = "<group>"; };
+		F44EFAF912286D8400CAC9C2 /* DoceratorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoceratorImageView.h; sourceTree = "<group>"; };
+		F44EFAFA12286D8400CAC9C2 /* DoceratorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoceratorImageView.m; sourceTree = "<group>"; };
+		F4B700B1123BFF8E000FE898 /* Docerator.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Docerator.icns; sourceTree = "<group>"; };
+		F4B700E5123C0199000FE898 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EF85312285A2900CAC9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44EF9C412285AAE00CAC9C2 /* Carbon.framework in Frameworks */,
+				F44EF9D112285AE400CAC9C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EFA9912285BF400CAC9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44EFAA512285C1C00CAC9C2 /* ApplicationServices.framework in Frameworks */,
+				F44EFAA912285C3500CAC9C2 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* DoceratorAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* DoceratorAppDelegate.m */,
+				F44EFAF912286D8400CAC9C2 /* DoceratorImageView.h */,
+				F44EFAFA12286D8400CAC9C2 /* DoceratorImageView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Docerator.app */,
+				F44EF85512285A2900CAC9C2 /* makeicns */,
+				F44EFA9B12285BF400CAC9C2 /* flow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Docerator */ = {
+			isa = PBXGroup;
+			children = (
+				F44EFACB12285DBF00CAC9C2 /* docerator.py */,
+				F44EF84F12285A1300CAC9C2 /* flow */,
+				F44EF84E12285A0900CAC9C2 /* makeicns */,
+				F44EFACD12285DC500CAC9C2 /* DoceratorApp */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Docerator;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Docerator_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4B700B1123BFF8E000FE898 /* Docerator.icns */,
+				F4B700E5123C0199000FE898 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Docerator-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F44EF9C312285AAE00CAC9C2 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F44EFAA812285C3500CAC9C2 /* CoreFoundation.framework */,
+				F44EFAA412285C1C00CAC9C2 /* ApplicationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44EF84E12285A0900CAC9C2 /* makeicns */ = {
+			isa = PBXGroup;
+			children = (
+				F44EF86412285A3A00CAC9C2 /* makeicns.m */,
+				F44EF86612285A5F00CAC9C2 /* IconFamily.h */,
+				F44EF86712285A5F00CAC9C2 /* IconFamily.m */,
+				F44EF86812285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.h */,
+				F44EF86912285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.m */,
+			);
+			name = makeicns;
+			sourceTree = "<group>";
+		};
+		F44EF84F12285A1300CAC9C2 /* flow */ = {
+			isa = PBXGroup;
+			children = (
+				F44EFA9F12285BFF00CAC9C2 /* flow.cpp */,
+			);
+			name = flow;
+			sourceTree = "<group>";
+		};
+		F44EFACD12285DC500CAC9C2 /* DoceratorApp */ = {
+			isa = PBXGroup;
+			children = (
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			name = DoceratorApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Docerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Docerator" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44EFAD512285E1500CAC9C2 /* PBXTargetDependency */,
+				F44EFAD712285E1500CAC9C2 /* PBXTargetDependency */,
+			);
+			name = Docerator;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Docerator;
+			productReference = 8D1107320486CEB800E47090 /* Docerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44EF85412285A2900CAC9C2 /* makeicns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44EF86312285A3400CAC9C2 /* Build configuration list for PBXNativeTarget "makeicns" */;
+			buildPhases = (
+				F44EF85212285A2900CAC9C2 /* Sources */,
+				F44EF85312285A2900CAC9C2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = makeicns;
+			productName = makeicns;
+			productReference = F44EF85512285A2900CAC9C2 /* makeicns */;
+			productType = "com.apple.product-type.tool";
+		};
+		F44EFA9A12285BF400CAC9C2 /* flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44EFAA112285BFF00CAC9C2 /* Build configuration list for PBXNativeTarget "flow" */;
+			buildPhases = (
+				F44EFA9812285BF400CAC9C2 /* Sources */,
+				F44EFA9912285BF400CAC9C2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flow;
+			productName = flow;
+			productReference = F44EFA9B12285BF400CAC9C2 /* flow */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Docerator" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Docerator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Docerator */,
+				F44EF85412285A2900CAC9C2 /* makeicns */,
+				F44EFA9A12285BF400CAC9C2 /* flow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44EFACC12285DBF00CAC9C2 /* docerator.py in Resources */,
+				F44EFACE12285E0100CAC9C2 /* makeicns in Resources */,
+				F44EFACF12285E0400CAC9C2 /* flow in Resources */,
+				F4B700B2123BFF8E000FE898 /* Docerator.icns in Resources */,
+				F4B700E6123C0199000FE898 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* DoceratorAppDelegate.m in Sources */,
+				F44EFAFB12286D8400CAC9C2 /* DoceratorImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EF85212285A2900CAC9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44EF86A12285A5F00CAC9C2 /* IconFamily.m in Sources */,
+				F44EF86B12285A5F00CAC9C2 /* NSString+CarbonFSRefCreation.m in Sources */,
+				F44EF86C12285A6300CAC9C2 /* makeicns.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EFA9812285BF400CAC9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44EFAA012285BFF00CAC9C2 /* flow.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44EFAD512285E1500CAC9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44EF85412285A2900CAC9C2 /* makeicns */;
+			targetProxy = F44EFAD412285E1500CAC9C2 /* PBXContainerItemProxy */;
+		};
+		F44EFAD712285E1500CAC9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44EFA9A12285BF400CAC9C2 /* flow */;
+			targetProxy = F44EFAD612285E1500CAC9C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Docerator_Prefix.pch;
+				INFOPLIST_FILE = "Docerator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Docerator;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Docerator_Prefix.pch;
+				GENERATE_PKGINFO_FILE = NO;
+				INFOPLIST_FILE = "Docerator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_OPENMP_FLAGS = "";
+				PRODUCT_NAME = Docerator;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = YES;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Release;
+		};
+		F44EF85712285A2900CAC9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = makeicns;
+			};
+			name = Debug;
+		};
+		F44EF85812285A2900CAC9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = YES;
+				PRODUCT_NAME = makeicns;
+				STRIP_INSTALLED_PRODUCT = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F44EFA9D12285BF500CAC9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = flow;
+			};
+			name = Debug;
+		};
+		F44EFA9E12285BF500CAC9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = YES;
+				PRODUCT_NAME = flow;
+				STRIP_INSTALLED_PRODUCT = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Docerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Docerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44EF86312285A3400CAC9C2 /* Build configuration list for PBXNativeTarget "makeicns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44EF85712285A2900CAC9C2 /* Debug */,
+				F44EF85812285A2900CAC9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44EFAA112285BFF00CAC9C2 /* Build configuration list for PBXNativeTarget "flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44EFA9D12285BF500CAC9C2 /* Debug */,
+				F44EFA9E12285BF500CAC9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
